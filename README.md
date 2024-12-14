@@ -2,7 +2,7 @@
 
 [Sudarshan rajagopalan](#) | [Vishal M. Patel](#)
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![Project Pager](https://img.shields.io/badge/Project-Page-blue)](https://sudraj2002.github.io/awraclepage/) [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2409.00263)
 
 <hr />
 
