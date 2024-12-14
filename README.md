@@ -7,7 +7,7 @@
 <img src="./assets/intro.png" alt="" style="border:0; height:500px; width:1500px;">
 <div class="content has-text-justified">
 <p>
-Fig. 1: Illustration of AWRaCLe: Our visual in-context learning approach for all-weather image restoration. Given a context pair (first two rows), AWRaCLe extracts 
+Illustration of AWRaCLe: Our visual in-context learning approach for all-weather image restoration. Given a context pair (first two rows), AWRaCLe extracts 
 relevant degradation context from it to restore a query image. Our method also performs selective removal of haze and snow from an image containing their mixture as shown in (d) and (e).
 </p>
 </div>
