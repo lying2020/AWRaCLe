@@ -26,4 +26,8 @@ Initially, CLIP features are extracted from the context pair and fed into Degrad
 The Context Fusion (CF) blocks then fuse the degradation information obtained from the DCE blocks with the decoder features of the query image requiring restoration. Finally, the restored image is generated.
 </p>
 
+### TODO
+- [ ] Inference Code
+- [ ] Pre-trained model release
+- [ ] Training Code
 
