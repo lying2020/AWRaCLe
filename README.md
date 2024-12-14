@@ -19,7 +19,7 @@ relevant degradation context from it to restore a query image. Our method also p
 
 **Method**
 
-<img src="./assets/block.png" alt="" border=0 height=500 width=1500></img></
+<img src="./assets/block.png" alt="" border=0 height=500 width=1500></img>
 <p>
 AWRaCLe integrates degradation-specific information from a context pair to facilitate the image restoration process. 
 Initially, CLIP features are extracted from the context pair and fed into Degradation Context Extraction (DCE) blocks at various levels of the decoder within the image restoration network. 
