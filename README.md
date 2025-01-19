@@ -41,6 +41,16 @@ pip install -r requirements.txt
 ## Dataset Download
 
 Download the training and test data from [here](). Extract to ```<data_directory>```.
+The dataset should look like
+```
+<data_directory>
+  -CSD
+  -Rain13K
+  -RESIDE
+  -Snow100k
+  -Train
+  -Train_clip
+```
 
 ## Model Checkpoint Download
 
@@ -50,11 +60,12 @@ Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoin
 
 ### Training
 
-To train the model from scratch or fine-tune using your own dataset:
+To train the model from scratch on the datasets mentioned in the paper:
 
-```bash
-python train.py --config configs/awracle_train.yaml
 ```
+bash train.sh
+```
+Make sure to specify the directoriesAdditional arguments can be found in the ```options.py``` file.
 
 ### Testing / Inference
 
