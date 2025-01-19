@@ -40,11 +40,11 @@ pip install -r requirements.txt
 
 ## Dataset Download
 
-Download the training and test data from [here](). Extract them to ``<data_directory>```.
+Download the training and test data from [here](). Extract them to ```<data_directory>```.
 
 ## Model Checkpoint Download
 
-Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E).
+Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E) and move it under ```awracle/```
 
 ## Training and Testing
 
