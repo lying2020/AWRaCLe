@@ -44,12 +44,13 @@ Download the training and test data from [here](). Extract to ```<data_directory
 The dataset should look like
 ```
 <data_directory>
-  -CSD
-  -Rain13K
-  -RESIDE
-  -Snow100k
-  -Train
-  -Train_clip
+  -data_awracle
+    -CSD
+    -Rain13K
+    -RESIDE
+    -Snow100k
+    -Train
+    -Train_clip
 ```
 
 ## Model Checkpoint Download
