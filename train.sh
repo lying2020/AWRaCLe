@@ -1,1 +1,1 @@
-python train.py --batch_size 4 --num_gpus 2
+python train.py --batch_size 4 --num_gpus 2 --derain_dir <data_directory>/data_awracle/Train/Derain/ --dehaze_dir <data_directory>/data_awracle/Train/Dehaze/ --desnow_dir <data_directory>/data_awracle/Train/Desnow/
