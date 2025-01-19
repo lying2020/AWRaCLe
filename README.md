@@ -28,41 +28,24 @@ The Context Fusion (CF) blocks then fuse the degradation information obtained fr
 
 ## Installation
 
-Ensure you have Python 3.8+ and pip installed. Then, clone the repository and install the required packages:
+Clone the repository then create a new conda environment with Python=3.8
 
 ```bash
-git clone https://github.com/yourusername/awracle.git
+git clone https://github.com/sudraj2002/awracle.git
 cd awracle
+
+conda create -n awracle python=3.8 -y
 pip install -r requirements.txt
 ```
 
 ## Dataset Download
 
-Download the required datasets for training and testing. For example:
-
-```bash
-# Create a data directory
-mkdir data && cd data
-
-# Download dataset from an example URL (replace with actual dataset URLs)
-wget -O all_weather_dataset.zip http://example.com/path/to/dataset.zip
-unzip all_weather_dataset.zip
-rm all_weather_dataset.zip
-
-cd ..
-```
+Download the training and test data from [here](). Extract them to ``<data_directory>```.
 
 ## Model Checkpoint Download
 
-```bash
-mkdir -p checkpoints
-cd checkpoints
+Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E).
 
-# Download checkpoint from an example URL (replace with actual links)
-wget -O awracle_pretrained.pth http://example.com/path/to/awracle_pretrained.pth
-
-cd ..
-```
 ## Training and Testing
 
 ### Training
