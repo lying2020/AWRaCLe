@@ -66,7 +66,7 @@ To train the model from scratch on the datasets mentioned in the paper:
 ```
 bash train.sh
 ```
-Make sure to specify the correct paths to Additional arguments can be found in the ```options.py``` file.
+Specify arguments ```--derain_dir, --dehaze_dir``` and ```desnow_dir``` as per ```<data_directory>```. Additional arguments can be found in the ```options.py``` file.
 
 ### Testing / Inference
 
