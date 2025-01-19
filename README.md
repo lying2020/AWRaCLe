@@ -26,8 +26,79 @@ Initially, CLIP features are extracted from the context pair and fed into Degrad
 The Context Fusion (CF) blocks then fuse the degradation information obtained from the DCE blocks with the decoder features of the query image requiring restoration. Finally, the restored image is generated.
 </p>
 
+## Installation
+
+Ensure you have Python 3.8+ and pip installed. Then, clone the repository and install the required packages:
+
+```bash
+git clone https://github.com/yourusername/awracle.git
+cd awracle
+pip install -r requirements.txt
+```
+
+## Dataset Download
+
+Download the required datasets for training and testing. For example:
+
+```bash
+# Create a data directory
+mkdir data && cd data
+
+# Download dataset from an example URL (replace with actual dataset URLs)
+wget -O all_weather_dataset.zip http://example.com/path/to/dataset.zip
+unzip all_weather_dataset.zip
+rm all_weather_dataset.zip
+
+cd ..
+```
+
+## Model Checkpoint Download
+
+```bash
+mkdir -p checkpoints
+cd checkpoints
+
+# Download checkpoint from an example URL (replace with actual links)
+wget -O awracle_pretrained.pth http://example.com/path/to/awracle_pretrained.pth
+
+cd ..
+```
+## Training and Testing
+
+### Training
+
+To train the model from scratch or fine-tune using your own dataset:
+
+```bash
+python train.py --config configs/awracle_train.yaml
+```
+
+### Testing / Inference
+
+After training or when using a pre-trained model, run the testing/inference script:
+
+```bash
+python test.py --config configs/awracle_test.yaml
+```
+
+## Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@article{rajagopalan2025awracle,
+  title={AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning},
+  author={Rajagopalan, Sudarshan and Patel, Vishal M.},
+  journal={arXiv preprint arXiv:2409.00263},
+  year={2025}
+}
+```
+
+
+
 ### TODO
 - [ ] Inference Code
 - [ ] Pre-trained model release
 - [ ] Training Code
+
 
