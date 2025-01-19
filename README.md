@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ## Dataset Download
 
-Download the training and test data from [here](). Extract them to ```<data_directory>```.
+Download the training and test data from [here](). Extract to ```<data_directory>```.
 
 ## Model Checkpoint Download
 
