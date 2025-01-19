@@ -31,7 +31,7 @@ The Context Fusion (CF) blocks then fuse the degradation information obtained fr
 Clone the repository create a new conda environment with Python=3.8.
 
 ```bash
-git clone https://github.com/sudraj2002/awracle.git
+git clone https://github.com/sudraj2002/AWRaCLe.git
 cd awracle
 
 conda create -n awracle python=3.8 -y
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ## Dataset Download
 
-Download the training and test data from [here](). Extract to ```<data_directory>```.
+Download the training and test data from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EYH5NpJv-lZFnBDRCAIpbgAB4juN0XihZBZgxaSz07kGrg?e=8NI6p1). Extract to ```<data_directory>```.
 The dataset should look like
 ```
 <data_directory>
@@ -55,7 +55,7 @@ The dataset should look like
 
 ## Model Checkpoint Download
 
-Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E) and move it under ```awracle/```
+Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E) and move it to the working directory.
 
 ## Training and Testing
 
@@ -66,7 +66,7 @@ To train the model from scratch on the datasets mentioned in the paper:
 ```
 bash train.sh
 ```
-Make sure to specify the directoriesAdditional arguments can be found in the ```options.py``` file.
+Make sure to specify the correct paths to Additional arguments can be found in the ```options.py``` file.
 
 ### Testing / Inference
 
@@ -81,12 +81,7 @@ python test.py --config configs/awracle_test.yaml
 If you find our work useful, please consider citing:
 
 ```bibtex
-@article{rajagopalan2025awracle,
-  title={AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning},
-  author={Rajagopalan, Sudarshan and Patel, Vishal M.},
-  journal={arXiv preprint arXiv:2409.00263},
-  year={2025}
-}
+
 ```
 
 
