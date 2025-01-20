@@ -95,7 +95,9 @@ If you find our work useful, please consider citing:
 ```
 
 
+### Acknowledgements
 
+We use the codebase of [PromptIR](https://github.com/va1shn9v/PromptIR). We thank the authors for sharing the code!
 <!--
 ### TODO
 - [x] Inference Code
