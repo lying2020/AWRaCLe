@@ -57,7 +57,7 @@ The dataset structure should look like
 
 Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E) and move it to the working directory.
 
-## Training and Testing
+## Quick Usage
 
 ### Training
 
@@ -68,7 +68,7 @@ bash train.sh
 ```
 Specify arguments ```--derain_dir, --dehaze_dir``` and ```desnow_dir``` as per your ```<data_directory>```. Additional arguments can be found in the ```options.py``` file.
 
-### Testing / Inference
+### Testing
 
 After training or when using a pre-trained model, run the test script:
 
@@ -77,7 +77,9 @@ bash test.sh
 ```
 Make sure to modify the ```<data_directory>```.
 
+## Custom Usage
 
+For training and testing on custom data, see [custom](https://github.com/sudraj2002/AWRaCLe/blob/main/custom.md).
 
 ## Citation
 
@@ -96,9 +98,9 @@ If you find our work useful, please consider citing:
 
 
 ### TODO
-- [ ] Inference Code
-- [ ] Pre-trained model release
-- [ ] Training Code
+- [x] Inference Code
+- [x] Pre-trained model release
+- [x] Training Code
 - [ ] Custom training and inference
 
 
