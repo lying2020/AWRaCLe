@@ -69,7 +69,7 @@ def test_ds(net, dataset, args):
     if calc_fid:
         fid_metric = FrechetInceptionDistance(feature=2048).cuda()
 
-    stop_count = 501  # Some test sets are huge
+    stop_count = 5000001  # Some test sets are huge
     count = 0
     with torch.no_grad():
         for ([clean_name], degrad_patch, clean_patch, degrad_context, clean_context) in tqdm(testloader):
