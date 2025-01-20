@@ -18,3 +18,4 @@ tqdm==4.66.1
 natsort
 lpips
 torch-fidelity
+torchmetrics==0.11.4
