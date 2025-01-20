@@ -41,16 +41,16 @@ pip install -r requirements.txt
 ## Dataset Download
 
 Download the training and test data from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EYH5NpJv-lZFnBDRCAIpbgAB4juN0XihZBZgxaSz07kGrg?e=8NI6p1). Extract to ```<data_directory>```.
-The dataset should look like
+The dataset structure should look like
 ```
 <data_directory>
-  -data_awracle
-    -CSD
-    -Rain13K
-    -RESIDE
-    -Snow100k
-    -Train
-    -Train_clip
+└── data_awracle
+    ├── CSD
+    ├── Rain13K
+    ├── RESIDE
+    ├── Snow100k
+    ├── Train
+    └── Train_clip
 ```
 
 ## Model Checkpoint Download
@@ -84,14 +84,11 @@ Make sure to modify the ```<data_directory>```.
 If you find our work useful, please consider citing:
 
 ```bibtex
-@misc{rajagopalan2024awracle,
+@article{rajagopalan2024awracle,
       title={AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning}, 
       author={Sudarshan Rajagopalan and Vishal M. Patel},
-      year={2024},
-      eprint={2409.00263},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.00263}, 
+      journal={arXiv preprint arXiv:2409.00263},
+      year={2024}
 }
 
 ```
