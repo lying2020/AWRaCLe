@@ -96,10 +96,12 @@ If you find our work useful, please consider citing:
 
 
 
+<!--
 ### TODO
 - [x] Inference Code
 - [x] Pre-trained model release
 - [x] Training Code
-- [ ] Custom training and inference
+- [x] Custom training and inference
+-->
 
 
