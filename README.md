@@ -66,21 +66,31 @@ To train the model from scratch on the datasets mentioned in the paper:
 ```
 bash train.sh
 ```
-Specify arguments ```--derain_dir, --dehaze_dir``` and ```desnow_dir``` as per ```<data_directory>```. Additional arguments can be found in the ```options.py``` file.
+Specify arguments ```--derain_dir, --dehaze_dir``` and ```desnow_dir``` as per your ```<data_directory>```. Additional arguments can be found in the ```options.py``` file.
 
 ### Testing / Inference
 
-After training or when using a pre-trained model, run the testing/inference script:
+After training or when using a pre-trained model, run the test script:
 
-```bash
-python test.py --config configs/awracle_test.yaml
+```bash test.sh
 ```
+
+
 
 ## Citation
 
 If you find our work useful, please consider citing:
 
 ```bibtex
+@misc{rajagopalan2024awracle,
+      title={AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning}, 
+      author={Sudarshan Rajagopalan and Vishal M. Patel},
+      year={2024},
+      eprint={2409.00263},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.00263}, 
+}
 
 ```
 
@@ -90,5 +100,6 @@ If you find our work useful, please consider citing:
 - [ ] Inference Code
 - [ ] Pre-trained model release
 - [ ] Training Code
+- [ ] Custom training and inference
 
 
