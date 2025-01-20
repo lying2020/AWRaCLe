@@ -72,8 +72,10 @@ Specify arguments ```--derain_dir, --dehaze_dir``` and ```desnow_dir``` as per y
 
 After training or when using a pre-trained model, run the test script:
 
-```bash test.sh
 ```
+bash test.sh
+```
+Make sure to modify the ```<data_directory>```.
 
 
 
