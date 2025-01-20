@@ -22,7 +22,7 @@ For a particular degradation (say rain) the data stucture should look like:
 [{'image_path': <path_to_image>, 'target_path': <path_to_target>, 'type': <optional>}, ...]
 ```
 
-```<path_to_image>``` and ```<path_to_target>``` are relative to the path specified in ```--derain_dir```. ```Train_clip/``` contains precomputed CLIP image embeddings, which are used as context during training.
+```<path_to_image>``` and ```<path_to_target>``` are relative to the path specified in ```--derain_dir```. ```Train_clip/``` contains precomputed CLIP image embeddings, which are used as context during training. The procedure for other degradations is identical.
 
 ## Testing on Custom Data
 
