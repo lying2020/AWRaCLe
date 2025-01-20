@@ -1,5 +1,3 @@
-## In Progress
-
 ## Training with Custom Data
 
 For a particular degradation (say rain) the data stucture should look like:
@@ -30,5 +28,7 @@ For a particular degradation (say rain) the data stucture should look like:
 
 Command for testing is as follows:
 ```
-
+python test.py --ckpt_name <path_to_ckpt> --test_dir <test_set_directory> --in_context_dir <directory_containing_context_pairs> --test_json <test_json_file> --output_path results/reside/ --in_context_file <context_json_file> --lpips --fid
 ```
+
+```<test_json_file>``` and ```<context_json_file>``` have the same structure same strcture as mentioned previously. ```--in_context_dir``` specifies the directory to sample context pairs from and is typically set to the training set path. ```--lpips``` and ```--fid``` are flags to calculate LPIPS and FID scores.
