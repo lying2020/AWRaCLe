@@ -35,6 +35,7 @@ git clone https://github.com/sudraj2002/AWRaCLe.git
 cd awracle
 
 conda create -n awracle python=3.9 -y
+conda activate awracle
 pip install -r requirements.txt
 ```
 
