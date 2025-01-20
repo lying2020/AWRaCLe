@@ -1,6 +1,6 @@
 ## Training with Custom Data
 
-For a particular degradation (say rain) the data stucture should look like:
+For any particular degradation (say rain) the data stucture should look like:
 ```
 <data_path>
 └── data_awracle
