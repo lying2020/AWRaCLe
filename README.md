@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ## Dataset and Checkpoint Download
 
-Download the training and test data from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EYH5NpJv-lZFnBDRCAIpbgAB4juN0XihZBZgxaSz07kGrg?e=8NI6p1). Extract to ```<data_directory>```.
+Download the training and test data from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EYH5NpJv-lZFnBDRCAIpbgAB4juN0XihZBZgxaSz07kGrg?e=kRHe1x). Extract to ```<data_directory>```.
 The dataset structure should look like
 ```
 <data_directory>
