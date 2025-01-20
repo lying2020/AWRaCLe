@@ -38,7 +38,7 @@ conda create -n awracle python=3.8 -y
 pip install -r requirements.txt
 ```
 
-## Dataset Download
+## Dataset and Checkpoint Download
 
 Download the training and test data from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EYH5NpJv-lZFnBDRCAIpbgAB4juN0XihZBZgxaSz07kGrg?e=8NI6p1). Extract to ```<data_directory>```.
 The dataset structure should look like
@@ -52,8 +52,6 @@ The dataset structure should look like
     ├── Train
     └── Train_clip
 ```
-
-## Model Checkpoint Download
 
 Download the pre-trained model from [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/sambasa2_jh_edu/EWcypD6J7zRGgX0WKbP_G0QBzby9EzUCkcApoYkJJN4m4g?e=RRxP4E) and move it to the working directory.
 
