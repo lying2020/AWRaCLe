@@ -28,7 +28,7 @@ The Context Fusion (CF) blocks then fuse the degradation information obtained fr
 
 ## Installation
 
-Clone the repository create a new conda environment with Python=3.8.
+Clone the repository and create a new conda environment with Python=3.8. Install requirements.
 
 ```bash
 git clone https://github.com/sudraj2002/AWRaCLe.git
